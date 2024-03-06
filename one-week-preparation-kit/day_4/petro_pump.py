@@ -16,7 +16,7 @@ def truckTour(net_pumps):
         if gas >= 0:
             return i
 
-truckTour(net_pumps)
+# truckTour(net_pumps)
 
 def truckTour(petrolpumps):
     net_pumps = [pump[0]-pump[1] for pump in petrolpumps]

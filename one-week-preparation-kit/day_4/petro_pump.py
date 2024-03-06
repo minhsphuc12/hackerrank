@@ -48,10 +48,10 @@ for i in range(n-2, -1, -1):
     suffix_sums[i] = suffix_sums[i+1] + arr[i]
 
 # Step 3: Find the minimum index
-for i in range(n):
-    if prefix_sums[i] >= 0 and suffix_sums[i] >= 0:
-        print(i)
-return -1  # Return -1 if no such index exists
+# for i in range(n):
+#     if prefix_sums[i] >= 0 and suffix_sums[i] >= 0:
+#         print(i)
+# return -1  # Return -1 if no such index exists
 
 
 def findMinimumIndex(arr):

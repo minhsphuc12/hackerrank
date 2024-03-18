@@ -117,7 +117,6 @@ def decodeHuff(root, s):
         
     print(decoded_string)
  
-decodeHuff(root, s)
 
 ip = input()
 freq = {}#maps each character to its frequency
